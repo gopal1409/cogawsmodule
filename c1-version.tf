@@ -10,21 +10,13 @@ terraform {
     }
     
   }
-  /*backend "azurerm" {
+  backend "azurerm" {
     resource_group_name  = "terraformstorage"
     storage_account_name = "terraformstategd"
     container_name       = "terraformtfstate"
     key                  = "project1"
-  }*/
-  /*backend "s3" {
-    #change the bucket name
-    bucket = "terraform-on-aws-for-ec2-gopal"
-    key = "dev/terraform.tfstate"
-    region = "us-east-1"
-    #change the dyanmodb table name if you have modified it
-    #for state locking
-    #dynamodb_table = "dev-project-vpc"
-  }*/
+  }
+  
 }
 
 # Configure the AWS Provider
