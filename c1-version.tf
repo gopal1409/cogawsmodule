@@ -17,7 +17,7 @@ terraform {
     key                  = "project1"
   }
   
-}*/
+}
 
 # Configure the AWS Provider
 provider "aws" {
