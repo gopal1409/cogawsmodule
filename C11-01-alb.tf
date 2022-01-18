@@ -1,4 +1,4 @@
-resource "aws_lb" "web_servers" {
+/*resource "aws_lb" "web_servers" {
  name               = "test-lb-tf"
   internal           = false
   load_balancer_type = "application"
@@ -10,4 +10,4 @@ resource "aws_lb" "web_servers" {
   ]
 
   enable_deletion_protection = false
-}
+}*/
