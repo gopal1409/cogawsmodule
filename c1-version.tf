@@ -10,14 +10,14 @@ terraform {
     }
     
   }
-  backend "azurerm" {
+  /*backend "azurerm" {
     resource_group_name  = "terraformstorage"
     storage_account_name = "terraformstategd"
     container_name       = "terraformtfstate"
     key                  = "project1"
   }
   
-}
+}*/
 
 # Configure the AWS Provider
 provider "aws" {
