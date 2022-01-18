@@ -14,7 +14,7 @@ terraform {
     #for state locking
     dynamodb_table = "dev-project-vpc"
   }
-}
+
   
 }
 
