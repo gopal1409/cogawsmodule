@@ -5,7 +5,7 @@ module "ec2_private_app2" {
   #instance_type = 4
   ami           = data.aws_ami.amzlinux2.id
   instance_type = var.instance_type
-  #key_name      = var.instance_keypair
+  key_name      = var.instance_keypair
   #monitoring = tru
   subnet_ids = [
     module.vpc.private_subnets[0],
