@@ -3,18 +3,7 @@ terraform {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 3.0"
-    }
-     azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=2.91.0"
-    }
-    
-  }
-  /*backend "azurerm" {
-    resource_group_name  = "terraformstorage"
-    storage_account_name = "terraformstategd"
-    container_name       = "terraformtfstate"
-    key                  = "project1"
+    }   
   }
   
 }
